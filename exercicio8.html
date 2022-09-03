@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 8</title>
+    <script>
+
+        // Media de número entre 1 e 9 
+
+        
+        var num = parseInt(prompt("Escreva o primeiro número: "));
+        var num1 = parseInt(prompt("Escreva o segundo número: "));
+        var num2 = parseInt(prompt("Escreva o terceiro número: "));
+        var num3 = parseInt(prompt("Escreva o quarto número: ")); 
+        media = 0;
+
+       if(num > 0 && num < 10 && num1 > 0 && num1 < 10 && num2 > 0 && num2 < 10 && num3 > 0 && num3 < 10){
+        media = (num + num1 + num2 + num3) / 4;
+       }else {
+        document.write("Escolha números maiores que 0 e menores que 10." + "<br>");
+       }
+       if (media > 5){
+        document.write("Parabéns, você passou no teste!" + "<br>");
+        document.write("Media: " + media);
+       }else {
+        document.write("Tente novamente.");
+       }
+       
+
+      
+    
+        
+
+        </script>
+</head>
+<body>
+    
+</body>
+</html>

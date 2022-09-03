@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11</title>
+
+    <script>
+        // calculadora
+
+        var operacao = parseInt(prompt("Qual a operação? 1.Adição.  2.Subtração. 3.Divisão. 4.Multiplicação"));
+        var num1 = parseInt(prompt("Escreva o primeiro valor: "));
+        var num2 = parseInt(prompt("Escreva o segundo valor: "));
+
+        var adi = num1 + num2;
+        var sub = num1 - num2;
+        var divi = num1 / num2;
+        var multi = num1 * num2;
+
+        if (operacao == 1){
+            operacao = adi;
+        }
+        if (operacao == 2){
+            operacao = sub;
+        }
+        if (operacao == 3){
+            operacao = divi;
+        }
+        if (operacao == 4){
+            operacao = multi;
+        }
+        document.write("O número 1: " + num1 + "<br>");
+        document.write("O número 2: " + num2 + "<br>");
+        document.write("Valor da operação: " + operacao);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
